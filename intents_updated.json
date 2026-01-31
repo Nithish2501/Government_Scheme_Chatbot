@@ -1,0 +1,803 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there",
+            "Hello",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "stand_up_india",
+        "patterns": [
+            "What is Stand-Up India?",
+            "Tell me about Stand-Up India scheme",
+            "How does Stand-Up India work?",
+            "What documents are required for Stand-Up India?",
+            "Where can I register for Stand-Up India?",
+            "How to register for Stand-Up India?"
+        ],
+        "responses": [
+            "The Stand-Up India scheme supports women and SC/ST entrepreneurs with loans between rs10 lakh to rs1 crore for setting up businesses.  \nRequired documents: Aadhaar Card, PAN Card, Caste Certificate (if applicable), Business Plan, Bank Account Details.  \nEligibility: Women or SC/ST individuals above 18 years planning to start a business.  \nRegistration platform: Online application available at https://www.standupmitra.in or through bank branches."
+        ]
+    },
+    {
+        "tag": "pmay",
+        "patterns": [
+            "What is PMAY?",
+            "Tell me about PMAY scheme",
+            "How does PMAY work?",
+            "What documents are required for PMAY?",
+            "Where can I register for PMAY?",
+            "How to register for PMAY?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Awas Yojana (PMAY) is a scheme to provide affordable housing for urban and rural poor.  \nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details, Property Documents.  \nEligibility: Families without a pucca house, annual income below rs18 lakh, and SC/ST/OBC beneficiaries.  \nRegistration platform: Online registration available at https://pmaymis.gov.in or offline application at the nearest municipal office."
+        ]
+    },
+    {
+        "tag": "mgnrega",
+        "patterns": [
+            "What is MGNREGA?",
+            "Tell me about MGNREGA",
+            "How does MGNREGA work?",
+            "What documents are required for MGNREGA?",
+            "Where can I register for MGNREGA?",
+            "How to register for MGNREGA?"
+        ],
+        "responses": [
+            "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) ensures 100 days of employment to rural households.  \nRequired documents: Job Card, Aadhaar Card, Bank Account Details.  \nEligibility: Adult members of rural households willing to do unskilled manual work.  \nRegistration platform: Applications can be submitted at the local Gram Panchayat office."
+        ]
+    },
+    {
+        "tag": "ujjwala",
+        "patterns": [
+            "What is PM Ujjwala Yojana?",
+            "Tell me about PM Ujjwala Yojana",
+            "How does PM Ujjwala Yojana work?",
+            "What documents are required for PM Ujjwala Yojana?",
+            "Where can I register for PM Ujjwala Yojana?",
+            "How to register for PM Ujjwala Yojana?"
+        ],
+        "responses": [
+            "The PM Ujjwala Yojana provides free LPG connections to BPL families to promote clean cooking fuel.  \nRequired documents: Aadhaar Card, BPL Certificate, Address Proof, Bank Account Details.  \nEligibility: Women from BPL families without an existing LPG connection.  \nRegistration platform: Apply at the nearest LPG distributor or online at https://www.pmuy.gov.in."
+        ]
+    },
+    {
+        "tag": "startup_india",
+        "patterns": [
+            "What is Startup India?",
+            "Tell me about Startup India scheme",
+            "How does Startup India work?",
+            "What documents are required for Startup India?",
+            "Where can I register for Startup India?",
+            "How to register for Startup India?"
+        ],
+        "responses": [
+            "The Startup India initiative promotes startups by providing tax benefits, simplified compliance, and funding support.  \nRequired documents: Incorporation/Registration Certificate, Business Plan, Aadhaar Card, PAN Card.  \nEligibility: Indian startups with innovative business ideas and turnover below rs100 crore.  \nRegistration platform: Online application at https://www.startupindia.gov.in."
+        ]
+    },
+    {
+        "tag": "kisan_credit_card",
+        "patterns": [
+            "What is Kisan Credit Card?",
+            "Tell me about Kisan Credit Card scheme",
+            "How does Kisan Credit Card work?",
+            "What documents are required for Kisan Credit Card?",
+            "Where can I apply for Kisan Credit Card?",
+            "How to apply for Kisan Credit Card?"
+        ],
+        "responses": [
+            "The Kisan Credit Card (KCC) scheme provides farmers with credit for agricultural needs at low-interest rates.  \nRequired documents: Aadhaar Card, Land Ownership Proof, Bank Account Details, and Agricultural Land Records.  \nEligibility: Farmers aged 18 to 75 years engaged in agriculture or allied activities.  \nRegistration platform: Apply at the nearest bank branch offering the scheme."
+        ]
+    },
+    {
+        "tag": "atal_pension_yojana",
+        "patterns": [
+            "What is Atal Pension Yojana?",
+            "Tell me about Atal Pension Yojana scheme",
+            "How does Atal Pension Yojana work?",
+            "What documents are required for Atal Pension Yojana?",
+            "Where can I apply for Atal Pension Yojana?",
+            "How to apply for Atal Pension Yojana?"
+        ],
+        "responses": [
+            "The Atal Pension Yojana (APY) provides a fixed monthly pension to workers in the unorganized sector after retirement.  \nRequired documents: Aadhaar Card, Bank Account Details, Mobile Number.  \nEligibility: Citizens aged 18 to 40 years with a savings bank account.  \nRegistration platform: Enroll through your bank branch or post office."
+        ]
+    },
+    {
+        "tag": "digital_india",
+        "patterns": [
+            "What is Digital India?",
+            "Tell me about Digital India scheme",
+            "How does Digital India work?",
+            "What documents are required for Digital India?",
+            "Where can I register for Digital India?",
+            "How to register for Digital India?"
+        ],
+        "responses": [
+            "The Digital India initiative aims to transform India into a digitally empowered society by improving online infrastructure and increasing internet connectivity.  \nRequired documents: Varies based on specific programs under Digital India.  \nEligibility: Citizens, startups, or organizations depending on the program.  \nRegistration platform: Visit https://digitalindia.gov.in for more details."
+        ]
+    },
+    {
+        "tag": "swachh_bharat_mission",
+        "patterns": [
+            "What is Swachh Bharat Mission?",
+            "Tell me about Swachh Bharat Mission",
+            "How does Swachh Bharat Mission work?",
+            "What documents are required for Swachh Bharat Mission?",
+            "Where can I register for Swachh Bharat Mission?",
+            "How to register for Swachh Bharat Mission?"
+        ],
+        "responses": [
+            "The Swachh Bharat Mission (SBM) aims to achieve universal sanitation and eliminate open defecation in India.  \nRequired documents: Aadhaar Card, Income Proof, Address Proof.  \nEligibility: Households without a toilet and below a certain income threshold.  \nRegistration platform: Apply through your local municipal office or Gram Panchayat."
+        ]
+    },
+    {
+        "tag": "ayushman_bharat",
+        "patterns": [
+            "What is Ayushman Bharat?",
+            "Tell me about Ayushman Bharat scheme",
+            "How does Ayushman Bharat work?",
+            "What documents are required for Ayushman Bharat?",
+            "Where can I register for Ayushman Bharat?",
+            "How to register for Ayushman Bharat?"
+        ],
+        "responses": [
+            "Ayushman Bharat, also known as PM-JAY, provides free health coverage of up to rs5 lakh per family annually for secondary and tertiary care.  \nRequired documents: Aadhaar Card, Ration Card, Income Certificate.  \nEligibility: Families identified under SECC (Socio-Economic Caste Census) database.  \nRegistration platform: Visit https://pmjay.gov.in or apply at empaneled hospitals."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_kisan_samman_nidhi",
+        "patterns": [
+            "What is Pradhan Mantri Kisan Samman Nidhi?",
+            "Tell me about Pradhan Mantri Kisan Samman Nidhi scheme",
+            "How does Pradhan Mantri Kisan Samman Nidhi work?",
+            "What documents are required for Pradhan Mantri Kisan Samman Nidhi?",
+            "Where can I register for Pradhan Mantri Kisan Samman Nidhi?",
+            "How to register for Pradhan Mantri Kisan Samman Nidhi?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) provides financial assistance of rs6,000 per year to farmers for their agricultural needs.  \nRequired documents: Aadhaar Card, Bank Account Details, Land Record Documents, Mobile Number.  \nEligibility: Small and marginal farmers owning less than 2 hectares of agricultural land.  \nRegistration platform: Apply online at https://pmkisan.gov.in or through the nearest CSC (Common Service Center)."
+        ]
+    },
+    {
+        "tag": "bhartiya_mahadalit_yojana",
+        "patterns": [
+            "What is Bhartiya Mahadalit Yojana?",
+            "Tell me about Bhartiya Mahadalit Yojana scheme",
+            "How does Bhartiya Mahadalit Yojana work?",
+            "What documents are required for Bhartiya Mahadalit Yojana?",
+            "Where can I register for Bhartiya Mahadalit Yojana?",
+            "How to register for Bhartiya Mahadalit Yojana?"
+        ],
+        "responses": [
+            "The Bhartiya Mahadalit Yojana is aimed at improving the socio-economic status of the marginalized Dalit communities by providing education, healthcare, and employment opportunities.  \nRequired documents: Caste Certificate, Aadhaar Card, Income Certificate, Bank Account Details.  \nEligibility: Mahadalits from Dalit communities with an income below the poverty line.  \nRegistration platform: Apply through the State Government offices or online at designated government portals."
+        ]
+    },
+    {
+        "tag": "mukhyamantri_vishwakarma_yojana",
+        "patterns": [
+            "What is Mukhyamantri Vishwakarma Yojana?",
+            "Tell me about Mukhyamantri Vishwakarma Yojana scheme",
+            "How does Mukhyamantri Vishwakarma Yojana work?",
+            "What documents are required for Mukhyamantri Vishwakarma Yojana?",
+            "Where can I register for Mukhyamantri Vishwakarma Yojana?",
+            "How to register for Mukhyamantri Vishwakarma Yojana?"
+        ],
+        "responses": [
+            "The Mukhyamantri Vishwakarma Yojana supports skilled workers like carpenters, blacksmiths, and weavers by providing training, tools, and financial assistance.  \nRequired documents: Aadhaar Card, Skill Certificate, Bank Account Details.  \nEligibility: Skilled workers engaged in traditional craftsmanship or trades.  \nRegistration platform: Apply at the District Collector's office or local government centers."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_rural_urban_mandrel",
+        "patterns": [
+            "What is Pradhan Mantri Rural Urban Mandrel?",
+            "Tell me about Pradhan Mantri Rural Urban Mandrel scheme",
+            "How does Pradhan Mantri Rural Urban Mandrel work?",
+            "What documents are required for Pradhan Mantri Rural Urban Mandrel?",
+            "Where can I register for Pradhan Mantri Rural Urban Mandrel?",
+            "How to register for Pradhan Mantri Rural Urban Mandrel?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Rural Urban Mandrel aims to bridge the urban-rural divide by promoting schemes for better rural infrastructure, sanitation, and healthcare.  \nRequired documents: Income Certificate, Aadhaar Card, Residential Proof.  \nEligibility: Rural households with low-income and no access to basic amenities.  \nRegistration platform: Apply at local Panchayat offices or respective Municipalities."
+        ]
+    },
+    {
+        "tag": "jan_dhan_yojana",
+        "patterns": [
+            "What is Jan Dhan Yojana?",
+            "Tell me about Jan Dhan Yojana scheme",
+            "How does Jan Dhan Yojana work?",
+            "What documents are required for Jan Dhan Yojana?",
+            "Where can I register for Jan Dhan Yojana?",
+            "How to register for Jan Dhan Yojana?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Jan Dhan Yojana (PMJDY) aims to ensure access to financial services like banking, savings, and insurance for the unbanked population.  \nRequired documents: Aadhaar Card, PAN Card, Bank Account Details.  \nEligibility: All Indian citizens, particularly those without access to formal banking services.  \nRegistration platform: Apply at any nearest bank branch offering PMJDY."
+        ]
+    },
+    {
+        "tag": "pmgsy",
+        "patterns": [
+            "What is PMGSY?",
+            "Tell me about PMGSY scheme",
+            "How does PMGSY work?",
+            "What documents are required for PMGSY?",
+            "Where can I register for PMGSY?",
+            "How to register for PMGSY?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Gram Sadak Yojana (PMGSY) aims to provide all-weather road connectivity to unconnected rural areas.  \nRequired documents: Aadhaar Card, Address Proof, Land Record Documents.  \nEligibility: Rural households without proper road access.  \nRegistration platform: Apply through State Government offices or local Panchayats."
+        ]
+    },
+    {
+        "tag": "pmay_urban",
+        "patterns": [
+            "What is PMAY Urban?",
+            "Tell me about PMAY Urban scheme",
+            "How does PMAY Urban work?",
+            "What documents are required for PMAY Urban?",
+            "Where can I register for PMAY Urban?",
+            "How to register for PMAY Urban?"
+        ],
+        "responses": {
+            "hi": "प्रधानमंत्री आवास योजना (शहरी) शहरी गरीबों के लिए सस्ती आवास प्रदान करती है।",
+            "mr": "प्रधानमंत्री आवास योजना (शहरी) शहरी गरीबांसाठी स्वस्त घरे प्रदान करते.",
+            "te": "ప్రధాన మంత్రి అవాస్ యోజన (పట్టణ) పట్టణ పేదలకు తక్కువ ధర గృహాలను అందిస్తుంది.",
+            "ta": "பிரதான் மந்திரி அவாஸ் யோஜனா (நகரம்) நகர்ப்புற ஏழைகளுக்கு மலிவான வீடுகளை வழங்குகிறது.",
+            "ml": "പ്രധാനമന്ത്രി ആവാസ് യോജന (നഗര) നഗര ദരിദ്രർക്കായി ലാഭകരമായ വീട് നൽകുന്നു.",
+            "or": "ପ୍ରଧାନମନ୍ତ୍ରୀ ଆବାସ ଯୋଜନା (ନଗର) ନଗରୀୟ ଦରିଦ୍ର ପାଇଁ ସସ୍ତା ଘର ପ୍ରଦାନ କରେ।",
+            "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ (ನಗರ) ನಗರ ಬಡವರಿಗೆ ಕಡಿಮೆ ಬೆಲೆಯ ಮನೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+            "en": "Pradhan Mantri Awas Yojana (Urban) provides affordable housing for the urban poor."
+        }
+    },
+    {
+        "tag": "skill_india",
+        "patterns": [
+            "What is Skill India?",
+            "Tell me about Skill India scheme",
+            "How does Skill India work?",
+            "What documents are required for Skill India?",
+            "Where can I register for Skill India?",
+            "How to register for Skill India?"
+        ],
+        "responses": [
+            "Skill India aims to provide training to youth in various trades and skills to make them employable.  \nRequired documents: Aadhaar Card, Bank Account Details, Educational Qualifications.  \nEligibility: Youth aged 18-45 years with basic education.  \nRegistration platform: Register through the official website at https://www.skillindia.gov.in or at affiliated training centers."
+        ]
+    },
+    {
+        "tag": "mudra_yojana",
+        "patterns": [
+            "What is MUDRA Yojana?",
+            "Tell me about MUDRA Yojana scheme",
+            "How does MUDRA Yojana work?",
+            "What documents are required for MUDRA Yojana?",
+            "Where can I register for MUDRA Yojana?",
+            "How to register for MUDRA Yojana?"
+        ],
+        "responses": [
+            "The MUDRA Yojana provides financial support to non-corporate, non-farm small/micro enterprises.  \nRequired documents: Aadhaar Card, PAN Card, Business Plan, Bank Account Details.  \nEligibility: Micro and small business owners, especially in the manufacturing, trading, and service sectors.  \nRegistration platform: Apply online at https://www.mudra.org.in or through participating banks."
+        ]
+    },
+    {
+        "tag": "pmgkdy",
+        "patterns": [
+            "What is PMGKDY?",
+            "Tell me about PMGKDY scheme",
+            "How does PMGKDY work?",
+            "What documents are required for PMGKDY?",
+            "Where can I register for PMGKDY?",
+            "How to register for PMGKDY?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Garib Kalyan Yojana (PMGKDY) is designed to provide financial aid to poor families during economic distress.  \nRequired documents: Aadhaar Card, Ration Card, Bank Account Details.  \nEligibility: Below poverty line (BPL) families.  \nRegistration platform: Apply through the local government offices or check  \nEligibility online at your respective state government portal."
+        ]
+    },
+    {
+        "tag": "swachh_bharat_mission",
+        "patterns": [
+            "What is Swachh Bharat Mission?",
+            "Tell me about Swachh Bharat Mission scheme",
+            "How does Swachh Bharat Mission work?",
+            "What documents are required for Swachh Bharat Mission?",
+            "Where can I register for Swachh Bharat Mission?",
+            "How to register for Swachh Bharat Mission?"
+        ],
+        "responses": [
+            "The Swachh Bharat Mission aims to eliminate open defecation and improve solid waste management.  \nRequired documents: Aadhaar Card, Residential Proof, Bank Account Details.  \nEligibility: All citizens of India, particularly in rural and urban areas with sanitation issues.  \nRegistration platform: Apply online at https://swachhbharatmission.gov.in or through local government offices."
+        ]
+    },
+    {
+        "tag": "vikas_karyakram",
+        "patterns": [
+            "What is Vikas Karyakram?",
+            "Tell me about Vikas Karyakram scheme",
+            "How does Vikas Karyakram work?",
+            "What documents are required for Vikas Karyakram?",
+            "Where can I register for Vikas Karyakram?",
+            "How to register for Vikas Karyakram?"
+        ],
+        "responses": [
+            "The Vikas Karyakram is a development program that aims to improve infrastructure, healthcare, and education in underdeveloped regions.  \nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details.  \nEligibility: Citizens from backward or underdeveloped areas.  \nRegistration platform: Apply through District Development Offices or local authorities."
+        ]
+    },
+    {
+        "tag": "digital_india",
+        "patterns": [
+            "What is Digital India?",
+            "Tell me about Digital India scheme",
+            "How does Digital India work?",
+            "What documents are required for Digital India?",
+            "Where can I register for Digital India?",
+            "How to register for Digital India?"
+        ],
+        "responses": [
+            "The Digital India campaign aims to improve online infrastructure and increase internet connectivity across India.  \nRequired documents: Aadhaar Card, Bank Account Details, Address Proof.  \nEligibility: All citizens, particularly in rural areas.  \nRegistration platform: Register through the official Digital India website at https://digitalindia.gov.in or through local CSC centers."
+        ]
+    },
+    {
+        "tag": "atma_nirbhar_bharat",
+        "patterns": [
+            "What is Atma Nirbhar Bharat?",
+            "Tell me about Atma Nirbhar Bharat scheme",
+            "How does Atma Nirbhar Bharat work?",
+            "What documents are required for Atma Nirbhar Bharat?",
+            "Where can I register for Atma Nirbhar Bharat?",
+            "How to register for Atma Nirbhar Bharat?"
+        ],
+        "responses": [
+            "The Atma Nirbhar Bharat scheme promotes self-reliance by encouraging local manufacturing and reducing dependency on imports.  \nRequired documents: Aadhaar Card, PAN Card, Business Plan, Bank Account Details.  \nEligibility: Micro, Small, and Medium Enterprises (MSMEs).  \nRegistration platform: Apply through the official website at https://www.msmemod.gov.in or at local government offices."
+        ]
+    },
+    {
+        "tag": "rashtriya_swathya_bima_yojana",
+        "patterns": [
+            "What is Rashtriya Swathya Bima Yojana?",
+            "Tell me about Rashtriya Swathya Bima Yojana scheme",
+            "How does Rashtriya Swathya Bima Yojana work?",
+            "What documents are required for Rashtriya Swathya Bima Yojana?",
+            "Where can I register for Rashtriya Swathya Bima Yojana?",
+            "How to register for Rashtriya Swathya Bima Yojana?"
+        ],
+        "responses": [
+            "The Rashtriya Swathya Bima Yojana (RSBY) provides health insurance to families living below the poverty line.  \nRequired documents: Aadhaar Card, Income Certificate, Ration Card.  \nEligibility: Families living below the poverty line (BPL).  \nRegistration platform: Apply through State Government Health Departments or RSBY kiosks."
+        ]
+    },
+    {
+        "tag": "pmay_rural",
+        "patterns": [
+            "What is PMAY Rural?",
+            "Tell me about PMAY Rural scheme",
+            "How does PMAY Rural work?",
+            "What documents are required for PMAY Rural?",
+            "Where can I register for PMAY Rural?"
+        ],
+        "responses": {
+            "hi": "प्रधानमंत्री आवास योजना (ग्रामीण) ग्रामीण गरीबों के लिए किफायती आवास प्रदान करती है।",
+            "mr": "प्रधानमंत्री आवास योजना (ग्रामीण) ग्रामीण गरीबांसाठी परवडणारी घरे उपलब्ध करून देते.",
+            "te": "ప్రధాన మంత్రి అవాస్ యోజన (గ్రామీణ) గ్రామీణ పేదలకు అందుబాటులో ఉండే గృహాలను అందిస్తుంది.",
+            "ta": "பிரதான் மந்திரி அவாஸ் யோஜனா (கிராமப்புறம்) கிராமப்புற ஏழைகளுக்கு மலிவான வீடுகளை வழங்குகிறது.",
+            "ml": "പ്രധാനമന്ത്രി ആവാസ് യോജന (ഗ്രാമീൺ) ഗ്രാമീണ ദരിദ്രർക്കായി ലാഭകരമായ വീട് നൽകുന്നു.",
+            "or": "ପ୍ରଧାନମନ୍ତ୍ରୀ ଆବାସ ଯୋଜନା (ଗ୍ରାମୀଣ) ଗ୍ରାମୀଣ ଦରିଦ୍ର ପାଇଁ ସସ୍ତା ଘର ପ୍ରଦାନ କରେ।",
+            "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ (ಗ್ರಾಮೀಣ) ಗ್ರಾಮೀಣ ಬಡವರಿಗೆ ಕಡಿಮೆ ಬೆಲೆಯ ಮನೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+            "en": "Pradhan Mantri Awas Yojana (Rural) provides affordable housing for the rural poor."
+        }
+    },
+    {
+        "tag": "narendra_modi_urban_housing_scheme",
+        "patterns": [
+            "What is Narendra Modi Urban Housing Scheme?",
+            "Tell me about Narendra Modi Urban Housing Scheme",
+            "How does Narendra Modi Urban Housing work?",
+            "What documents are required for Narendra Modi Urban Housing Scheme?",
+            "Where can I register for Narendra Modi Urban Housing?"
+        ],
+        "responses": [
+            "The Narendra Modi Urban Housing Scheme focuses on providing affordable housing for the urban poor.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details, Residential Proof.\nEligibility: Families from the urban poor sector with annual income below rs6 lakh.\nRegistration platform: Apply through urban local bodies or visit the official website at https://www.narendramodihousing.gov.in."
+        ]
+    },
+    {
+        "tag": "jan_dhan_yojana",
+        "patterns": [
+            "What is Jan Dhan Yojana?",
+            "Tell me about Jan Dhan Yojana scheme",
+            "How does Jan Dhan Yojana work?",
+            "What documents are required for Jan Dhan Yojana?",
+            "Where can I register for Jan Dhan Yojana?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is a financial inclusion scheme aimed at providing banking access to all households in India.\nRequired documents: Aadhaar Card, Bank Account Details, Identity Proof.\nEligibility: All Indian citizens.\nRegistration platform: Apply through any nationalized bank or online at https://pmjdy.gov.in."
+        ]
+    },
+    {
+        "tag": "ayushman_bharat",
+        "patterns": [
+            "What is Ayushman Bharat?",
+            "Tell me about Ayushman Bharat scheme",
+            "How does Ayushman Bharat work?",
+            "What documents are required for Ayushman Bharat?",
+            "Where can I register for Ayushman Bharat?"
+        ],
+        "responses": [
+            "Ayushman Bharat provides health insurance to economically disadvantaged families across India.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details.\nEligibility: Families in the bottom 40% of the income distribution and under poverty line.\nRegistration platform: Apply through the official website at https://www.pmjay.gov.in or at the nearest health centers."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_kisan_samman_nidhi",
+        "patterns": [
+            "What is Pradhan Mantri Kisan Samman Nidhi?",
+            "Tell me about Pradhan Mantri Kisan Samman Nidhi scheme",
+            "How does Pradhan Mantri Kisan Samman Nidhi work?",
+            "What documents are required for Pradhan Mantri Kisan Samman Nidhi?",
+            "Where can I register for Pradhan Mantri Kisan Samman Nidhi?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a scheme to provide financial support to farmers.\nRequired documents: Aadhaar Card, Land Records, Bank Account Details.\nEligibility: Small and marginal farmers with less than 2 hectares of land.\nRegistration platform: Apply through the official PM-KISAN portal at https://pmkisan.gov.in or visit the nearest agricultural office."
+        ]
+    },
+    {
+        "tag": "startup_india",
+        "patterns": [
+            "What is Startup India?",
+            "Tell me about Startup India scheme",
+            "How does Startup India work?",
+            "What documents are required for Startup India?",
+            "Where can I register for Startup India?"
+        ],
+        "responses": [
+            "Startup India is an initiative by the Government of India to promote entrepreneurship and innovation.\nRequired documents: PAN Card, Aadhaar Card, Business Plan, Company Registration Documents.\nEligibility: Indian startups with innovative ideas, incorporated within the last 7 years.\nRegistration platform: Apply online at https://www.startupindia.gov.in."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_kisan_maan_dhan_yojana",
+        "patterns": [
+            "What is Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "Tell me about Pradhan Mantri Kisan Maan Dhan Yojana",
+            "How does Pradhan Mantri Kisan Maan Dhan Yojana work?",
+            "What documents are required for Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "Where can I register for Pradhan Mantri Kisan Maan Dhan Yojana?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Kisan Maan Dhan Yojana provides a pension of rs3000 per month to farmers above 60 years.\nRequired documents: Aadhaar Card, Bank Account Details, Land Ownership Documents.\nEligibility: Farmers between 18 and 40 years of age, with landholding of up to 2 hectares.\nRegistration platform: Apply online at https://www.pmkmy.gov.in or at Common Service Centers (CSC)."
+        ]
+    },
+    {
+        "tag": "beti_bachao_beti_padhao",
+        "patterns": [
+            "What is Beti Bachao Beti Padhao?",
+            "Tell me about Beti Bachao Beti Padhao scheme",
+            "How does Beti Bachao Beti Padhao work?",
+            "What documents are required for Beti Bachao Beti Padhao?",
+            "Where can I register for Beti Bachao Beti Padhao?"
+        ],
+        "responses": [
+            "Beti Bachao Beti Padhao is a scheme to improve the welfare of girls and ensure their education and safety.\nRequired documents: Birth Certificate, Aadhar Card, Income Certificate.\nEligibility: Families with female children under 10 years.\nRegistration platform: Apply through the official website or local authorities."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_swasthya_suraksha_yojana",
+        "patterns": [
+            "What is Pradhan Mantri Swasthya Suraksha Yojana?",
+            "Tell me about Pradhan Mantri Swasthya Suraksha Yojana",
+            "How does Pradhan Mantri Swasthya Suraksha Yojana work?",
+            "What documents are required for Pradhan Mantri Swasthya Suraksha Yojana?",
+            "Where can I register for Pradhan Mantri Swasthya Suraksha Yojana?"
+        ],
+        "responses": [
+            "Pradhan Mantri Swasthya Suraksha Yojana aims to provide health insurance and medical treatment to the poor.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details.\nEligibility: Below-poverty-line families and individuals with limited access to healthcare.\nRegistration platform: Apply online at https://pmssy.gov.in or through designated health centers."
+        ]
+    },
+    {
+        "tag": "deen_dayal_upadhyaya_grameen_koushal_yojana",
+        "patterns": [
+            "What is Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "Tell me about Deen Dayal Upadhyaya Grameen Koushal Yojana",
+            "How does Deen Dayal Upadhyaya Grameen Koushal Yojana work?",
+            "What documents are required for Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "Where can I register for Deen Dayal Upadhyaya Grameen Koushal Yojana?"
+        ],
+        "responses": [
+            "Deen Dayal Upadhyaya Grameen Koushal Yojana is a skill development program aimed at rural youth.\nRequired documents: Aadhaar Card, Educational Certificates, Bank Account Details.\nEligibility: Rural youth between 15-35 years of age.\nRegistration platform: Apply online at http://www.ddugky.gov.in or through the nearest training centers."
+        ]
+    },
+    {
+        "tag": "pmay_rural",
+        "patterns": [
+            "What is PMAY Rural?",
+            "Tell me about PMAY Rural scheme",
+            "How does PMAY Rural work?",
+            "What documents are required for PMAY Rural?",
+            "Where can I register for PMAY Rural?",
+            "Who is eligible for PMAY Rural?",
+            "How can I apply for PMAY Rural online?",
+            "What benefits do I get from PMAY Rural?",
+            "What is the application process for PMAY Rural?"
+        ],
+        "responses": {
+            "hi": "प्रधानमंत्री आवास योजना (ग्रामीण) ग्रामीण गरीबों के लिए किफायती आवास प्रदान करती है।",
+            "mr": "प्रधानमंत्री आवास योजना (ग्रामीण) ग्रामीण गरीबांसाठी परवडणारी घरे उपलब्ध करून देते.",
+            "te": "ప్రధాన మంత్రి అవాస్ యోజన (గ్రామీణ) గ్రామీణ పేదలకు అందుబాటులో ఉండే గృహాలను అందిస్తుంది.",
+            "ta": "பிரதான் மந்திரி அவாஸ் யோஜனா (கிராமப்புறம்) கிராமப்புற ஏழைகளுக்கு மலிவான வீடுகளை வழங்குகிறது.",
+            "ml": "പ്രധാനമന്ത്രി ആവാസ് യോജന (ഗ്രാമീൺ) ഗ്രാമീണ ദരിദ്രർക്കായി ലാഭകരമായ വീട് നൽകുന്നു.",
+            "or": "ପ୍ରଧାନମନ୍ତ୍ରୀ ଆବାସ ଯୋଜନା (ଗ୍ରାମୀଣ) ଗ୍ରାମୀଣ ଦରିଦ୍ର ପାଇଁ ସସ୍ତା ଘର ପ୍ରଦାନ କରେ।",
+            "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ (ಗ್ರಾಮೀಣ) ಗ್ರಾಮೀಣ ಬಡವರಿಗೆ ಕಡಿಮೆ ಬೆಲೆಯ ಮನೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+            "en": "Pradhan Mantri Awas Yojana (Rural) provides affordable housing for the rural poor."
+        }
+    },
+    {
+        "tag": "narendra_modi_urban_housing_scheme",
+        "patterns": [
+            "What is Narendra Modi Urban Housing Scheme?",
+            "Tell me about Narendra Modi Urban Housing Scheme",
+            "How does Narendra Modi Urban Housing work?",
+            "What documents are required for Narendra Modi Urban Housing Scheme?",
+            "Where can I register for Narendra Modi Urban Housing?",
+            "Who can benefit from the Narendra Modi Urban Housing Scheme?",
+            "Can I apply for the Narendra Modi Urban Housing Scheme if I live in a slum?",
+            "What is the financial assistance provided under Narendra Modi Urban Housing?"
+        ],
+        "responses": [
+            "The Narendra Modi Urban Housing Scheme focuses on providing affordable housing for the urban poor.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details, Residential Proof.\nEligibility: Families from the urban poor sector with annual income below rs6 lakh.\nRegistration platform: Apply through urban local bodies or visit the official website at https://www.narendramodihousing.gov.in.",
+            "The scheme is for families with an income of less than Rs 6 lakh annually. Urban poor, including slum dwellers, are eligible.",
+            "Yes, slum dwellers and families in need of affordable housing in urban areas can benefit from this scheme.",
+            "The scheme offers subsidies for home construction or purchase, along with financial assistance for interest on home loans."
+        ]
+    },
+    {
+        "tag": "jan_dhan_yojana",
+        "patterns": [
+            "What is Jan Dhan Yojana?",
+            "Tell me about Jan Dhan Yojana scheme",
+            "How does Jan Dhan Yojana work?",
+            "What documents are required for Jan Dhan Yojana?",
+            "Where can I register for Jan Dhan Yojana?",
+            "How can I check the status of my Jan Dhan Yojana application?",
+            "What benefits do I get from Jan Dhan Yojana?",
+            "Can I get a loan under Jan Dhan Yojana?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is a financial inclusion scheme aimed at providing banking access to all households in India.\nRequired documents: Aadhaar Card, Bank Account Details, Identity Proof.\nEligibility: All Indian citizens.\nRegistration platform: Apply through any nationalized bank or online at https://pmjdy.gov.in.",
+            "To check the status of your PMJDY application, you can visit the official website or consult with the nearest bank branch.",
+            "Under PMJDY, you get access to a zero-balance bank account, insurance benefits, and overdraft facilities.",
+            "PMJDY does not directly offer loans, but it provides an overdraft facility of up to Rs 10,000."
+        ]
+    },
+    {
+        "tag": "ayushman_bharat",
+        "patterns": [
+            "What is Ayushman Bharat?",
+            "Tell me about Ayushman Bharat scheme",
+            "How does Ayushman Bharat work?",
+            "What documents are required for Ayushman Bharat?",
+            "Where can I register for Ayushman Bharat?",
+            "How can I check if I'm eligible for Ayushman Bharat?",
+            "How much coverage does Ayushman Bharat provide?",
+            "Can I apply for Ayushman Bharat if I already have health insurance?"
+        ],
+        "responses": [
+            "Ayushman Bharat provides health insurance to economically disadvantaged families across India.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details.\nEligibility: Families in the bottom 40% of the income distribution and under poverty line.\nRegistration platform: Apply through the official website at https://www.pmjay.gov.in or at the nearest health centers.",
+            "To check your eligibility for Ayushman Bharat, visit the official website or check with the nearest health center.",
+            "Ayushman Bharat provides coverage of up to Rs 5 lakh per family per year for secondary and tertiary care hospitalization.",
+            "Yes, Ayushman Bharat is available to individuals even if they have other health insurance, as it offers additional coverage."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_kisan_samman_nidhi",
+        "patterns": [
+            "What is Pradhan Mantri Kisan Samman Nidhi?",
+            "Tell me about Pradhan Mantri Kisan Samman Nidhi scheme",
+            "How does Pradhan Mantri Kisan Samman Nidhi work?",
+            "What documents are required for Pradhan Mantri Kisan Samman Nidhi?",
+            "Where can I register for Pradhan Mantri Kisan Samman Nidhi?",
+            "How can I track my PM-KISAN application?",
+            "What is the amount given under PM-KISAN?",
+            "Can women farmers apply for PM-KISAN?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a scheme to provide financial support to farmers.\nRequired documents: Aadhaar Card, Land Records, Bank Account Details.\nEligibility: Small and marginal farmers with less than 2 hectares of land.\nRegistration platform: Apply through the official PM-KISAN portal at https://pmkisan.gov.in or visit the nearest agricultural office.",
+            "To track your PM-KISAN application, visit the official portal and enter your Aadhaar number or mobile number.",
+            "Under PM-KISAN, small and marginal farmers receive Rs 6,000 annually, distributed in three equal installments.",
+            "Yes, women farmers who meet the eligibility criteria can also apply for PM-KISAN."
+        ]
+    },
+    {
+        "tag": "startup_india",
+        "patterns": [
+            "What is Startup India?",
+            "Tell me about Startup India scheme",
+            "How does Startup India work?",
+            "What documents are required for Startup India?",
+            "Where can I register for Startup India?",
+            "What support does Startup India offer to entrepreneurs?",
+            "Is there any financial aid available under Startup India?",
+            "How can I get tax benefits under Startup India?"
+        ],
+        "responses": [
+            "Startup India is an initiative by the Government of India to promote entrepreneurship and innovation.\nRequired documents: PAN Card, Aadhaar Card, Business Plan, Company Registration Documents.\nEligibility: Indian startups with innovative ideas, incorporated within the last 7 years.\nRegistration platform: Apply online at https://www.startupindia.gov.in.",
+            "Startup India provides a range of benefits, including funding opportunities, mentorship, and tax exemptions for eligible startups.",
+            "Yes, there are funding opportunities through government schemes and partnerships with venture capitalists for innovative startups.",
+            "Startups registered under the initiative can avail of tax benefits such as exemption from income tax for the first three years."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_kisan_maan_dhan_yojana",
+        "patterns": [
+            "What is Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "Tell me about Pradhan Mantri Kisan Maan Dhan Yojana",
+            "How does Pradhan Mantri Kisan Maan Dhan Yojana work?",
+            "What documents are required for Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "Where can I register for Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "What is the pension scheme under Pradhan Mantri Kisan Maan Dhan?",
+            "How do I apply for the Pradhan Mantri Kisan Maan Dhan Yojana?",
+            "Can I apply for Pradhan Mantri Kisan Maan Dhan if I'm over 40?"
+        ],
+        "responses": [
+            "The Pradhan Mantri Kisan Maan Dhan Yojana provides a pension of rs3000 per month to farmers above 60 years.\nRequired documents: Aadhaar Card, Bank Account Details, Land Ownership Documents.\nEligibility: Farmers between 18 and 40 years of age, with landholding of up to 2 hectares.\nRegistration platform: Apply online at https://www.pmkmy.gov.in or at Common Service Centers (CSC).",
+            "Under this scheme, farmers will receive a pension of Rs 3,000 per month after the age of 60.",
+            "You can apply for this scheme online at the official portal or at Common Service Centers (CSC).",
+            "Farmers aged between 18 and 40 years can apply for this pension scheme."
+        ]
+    },
+    {
+        "tag": "beti_bachao_beti_padhao",
+        "patterns": [
+            "What is Beti Bachao Beti Padhao?",
+            "Tell me about Beti Bachao Beti Padhao scheme",
+            "How does Beti Bachao Beti Padhao work?",
+            "What documents are required for Beti Bachao Beti Padhao?",
+            "Where can I register for Beti Bachao Beti Padhao?",
+            "How can I benefit from Beti Bachao Beti Padhao?",
+            "Is there a financial incentive under Beti Bachao Beti Padhao?",
+            "Can I register my daughter for Beti Bachao Beti Padhao?"
+        ],
+        "responses": [
+            "Beti Bachao Beti Padhao is a scheme to improve the welfare of girls and ensure their education and safety.\nRequired documents: Birth Certificate, Aadhar Card, Income Certificate.\nEligibility: Families with female children under 10 years.\nRegistration platform: Apply through the official website or local authorities.",
+            "Beti Bachao Beti Padhao encourages the welfare of girls, and families can benefit through financial and educational support for their daughters.",
+            "The scheme offers financial support for the education and health of girls, along with ensuring their safety and well-being.",
+            "Yes, you can register your daughter for the scheme through the local authorities or the official portal."
+        ]
+    },
+    {
+        "tag": "pradhan_mantri_swasthya_suraksha_yojana",
+        "patterns": [
+            "What is Pradhan Mantri Swasthya Suraksha Yojana?",
+            "Tell me about Pradhan Mantri Swasthya Suraksha Yojana",
+            "How does Pradhan Mantri Swasthya Suraksha Yojana work?",
+            "What documents are required for Pradhan Mantri Swasthya Suraksha Yojana?",
+            "Where can I register for Pradhan Mantri Swasthya Suraksha Yojana?",
+            "What does Pradhan Mantri Swasthya Suraksha Yojana cover?",
+            "How can I apply for Pradhan Mantri Swasthya Suraksha Yojana?",
+            "What is the eligibility for Pradhan Mantri Swasthya Suraksha Yojana?"
+        ],
+        "responses": [
+            "Pradhan Mantri Swasthya Suraksha Yojana aims to provide health insurance and medical treatment to the poor.\nRequired documents: Aadhaar Card, Income Certificate, Bank Account Details.\nEligibility: Below-poverty-line families and individuals with limited access to healthcare.\nRegistration platform: Apply online at https://pmssy.gov.in or through designated health centers.",
+            "PMSSY offers health insurance coverage for medical treatment in case of serious illnesses, including surgeries and hospitalization.",
+            "You can apply for PMSSY online through the official website or visit a health center for registration.",
+            "This scheme is aimed at individuals and families living below the poverty line with limited access to healthcare services."
+        ]
+    },
+    {
+        "tag": "deen_dayal_upadhyaya_grameen_koushal_yojana",
+        "patterns": [
+            "What is Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "Tell me about Deen Dayal Upadhyaya Grameen Koushal Yojana",
+            "How does Deen Dayal Upadhyaya Grameen Koushal Yojana work?",
+            "What documents are required for Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "Where can I register for Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "How do I register for Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "What skills are taught under Deen Dayal Upadhyaya Grameen Koushal Yojana?",
+            "Is there any age limit for applying to Deen Dayal Upadhyaya Grameen Koushal Yojana?"
+        ],
+        "responses": [
+            "Deen Dayal Upadhyaya Grameen Koushal Yojana is a skill development program aimed at rural youth.\nRequired documents: Aadhaar Card, Educational Certificates, Bank Account Details.\nEligibility: Rural youth between 15-35 years of age.\nRegistration platform: Apply online at http://www.ddugky.gov.in or through the nearest training centers.",
+            "You can register for this scheme online at the official portal or through training centers in rural areas.",
+            "The scheme provides skill development in various sectors like agriculture, manufacturing, and services to enhance employability.",
+            "The program is for youth aged between 15 to 35 years, and there is no specific qualification required."
+        ]
+    },
+    {
+        "tag": "eligible_schemes_documents",
+        "patterns": [
+            "What documents are required for government schemes?",
+            "Tell me the list of documents required for applying to government schemes",
+            "What are the necessary documents for government schemes?",
+            "What documents do I need to submit for government scheme applications?",
+            "Which documents do I need for government scheme eligibility?"
+        ],
+        "responses": [
+            "The required documents for government schemes typically include:\n1. Aadhaar Card\n2. Bank Account Details\n3. Income Certificate\n4. Residential Proof\n5. Land Records (for agriculture-based schemes)\n6. Caste Certificate (for specific caste-based schemes)\n7. Educational Certificates (for skill and employment schemes).\n\nBased on these documents, you might be eligible for the following government schemes:\n\n- PMAY (Pradhan Mantri Awas Yojana) – Housing for All (Rural and Urban)\n- PM-KISAN – Pradhan Mantri Kisan Samman Nidhi (Agriculture)\n- Ayushman Bharat – Health Insurance Scheme\n- Beti Bachao Beti Padhao – Women and Child Welfare\n- Start Up India – Entrepreneurship Support\n- Pradhan Mantri Jan Dhan Yojana – Financial Inclusion\n- Skill India and Deen Dayal Upadhyaya Grameen Koushal Yojana – Skill Development for Youth\n- Pradhan Mantri Kisan Maan Dhan Yojana – Pension Scheme for Farmers\n\nEligibility depends on your personal circumstances, including income level, age, caste, and other factors.",
+            "To apply for government schemes, you'll need common documents like your Aadhaar Card, Bank Account Details, and Income Certificate. Specific schemes may require additional documents such as caste certificates, educational records, or land ownership documents.\n\nHere are some government schemes you might be eligible for based on these documents:\n\n- PMAY (Pradhan Mantri Awas Yojana)\n- PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)\n- Beti Bachao Beti Padhao\n- Ayushman Bharat (Health Coverage)\n- PM Jan Dhan Yojana (Financial Inclusion)\n- Pradhan Mantri Kisan Maan Dhan Yojana (Farmer Pension Scheme)\n- Skill India and Deen Dayal Upadhyaya Grameen Koushal Yojana (Skill Development)"
+        ]
+    },
+    {
+        "tag": "documents_for_eligibility_check",
+        "patterns": [
+            "Which schemes can I apply for if I have Aadhaar and Income Certificate?",
+            "I have my Aadhaar card and Income Certificate, which schemes can I apply for?",
+            "What schemes are available for people with Aadhaar and Income Proof?",
+            "If I have an Income Certificate and Aadhaar, which schemes can I benefit from?",
+            "What government schemes can I apply for if I have Aadhaar and a Bank Account?"
+        ],
+        "responses": [
+            "With Aadhaar and Income Certificate, you can be eligible for the following government schemes:\n\n- Pradhan Mantri Awas Yojana (PMAY) – Housing for All\n- PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) – Financial Assistance for Farmers\n- Pradhan Mantri Jan Dhan Yojana – Financial Inclusion and Bank Accounts\n- Beti Bachao Beti Padhao – Women’s Welfare Scheme\n- Ayushman Bharat – Health Insurance Scheme\n\nEligibility can depend on income thresholds, so the next step is to visit the official websites for each scheme to apply based on your income level.",
+            "With your Aadhaar and Income Certificate, you can apply for schemes like PMAY (for housing), PM-KISAN (for financial aid to farmers), and Ayushman Bharat (health insurance coverage). Make sure your income does not exceed the maximum limit set by each scheme for eligibility."
+        ]
+    },
+    {
+        "tag": "documents_for_agriculture_schemes",
+        "patterns": [
+            "What documents do I need to apply for agriculture schemes?",
+            "If I want to apply for PM-KISAN or PMAY, what agricultural documents do I need?",
+            "Can I apply for any agriculture-based government schemes with land records?",
+            "Which schemes require land ownership documents?"
+        ],
+        "responses": [
+            "For agriculture-related schemes, the essential documents typically include:\n\n- Land Ownership Documents (for schemes like PM-KISAN)\n- Aadhaar Card\n- Bank Account Details\n- Income Certificate\n\nBased on these documents, you may be eligible for schemes like:\n\n- PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)\n- PMAY (Pradhan Mantri Awas Yojana) – if applying for rural housing\n- Deen Dayal Upadhyaya Grameen Koushal Yojana (Skill development for farmers)\n- Pradhan Mantri Kisan Maan Dhan Yojana (Farmer Pension Scheme)\n\nMake sure to check the specific eligibility criteria for each scheme based on your documents.",
+            "If you have land records, Aadhaar, and Bank Account Details, you are eligible for agriculture-related schemes like PM-KISAN (financial aid for farmers) and PMAY (for rural housing schemes). Also, schemes like Pradhan Mantri Kisan Maan Dhan Yojana (Farmer Pension Scheme) might be available for you."
+        ]
+    },
+    {
+        "tag": "documents_for_health_schemes",
+        "patterns": [
+            "What documents are required for health-related government schemes?",
+            "I have my Aadhaar and Bank Account, which health schemes can I apply for?",
+            "If I want to register for Ayushman Bharat, what documents do I need?",
+            "Can I apply for health schemes with only an Aadhaar Card?"
+        ],
+        "responses": [
+            "For health-related government schemes like Ayushman Bharat, you generally need the following documents:\n\n- Aadhaar Card\n- Bank Account Details\n- Income Certificate (for BPL families)\n- Residential Proof (sometimes required)\n\nWith these documents, you can apply for:\n\n- Ayushman Bharat – Health Insurance for the Poor\n- PM Jan Dhan Yojana – Financial Inclusion (includes health insurance benefits)\n\nBoth of these schemes are focused on providing health coverage and financial support for medical needs.",
+            "If you have Aadhaar and Bank Account details, you're eligible for Ayushman Bharat and PM Jan Dhan Yojana, both of which provide health coverage. Income and residential proofs may be required depending on your scheme eligibility."
+        ]
+    },
+    {
+        "tag": "documents_for_skill_development_schemes",
+        "patterns": [
+            "What documents are required for skill development schemes?",
+            "Can I apply for skill development if I have my Aadhaar and educational certificates?",
+            "Which schemes support skill development for youth if I have Aadhaar?",
+            "What documents do I need to apply for the Deen Dayal Upadhyaya Grameen Koushal Yojana?"
+        ],
+        "responses": [
+            "For skill development schemes like Deen Dayal Upadhyaya Grameen Koushal Yojana, you typically need:\n\n- Aadhaar Card\n- Educational Certificates (depending on the scheme)\n- Bank Account Details\n- Income Certificate (sometimes required)\n\nThese documents will make you eligible for:\n\n- Skill India (Skill Development Programs)\n- Deen Dayal Upadhyaya Grameen Koushal Yojana (Youth Skill Development in Rural Areas)\n\nIf you meet the eligibility criteria, you can apply through online platforms or local training centers.",
+            "To apply for skill development schemes, you'll need Aadhaar and educational documents. These will help you apply for schemes like Skill India and Deen Dayal Upadhyaya Grameen Koushal Yojana, aimed at enhancing employment opportunities."
+        ]
+    }
+]
